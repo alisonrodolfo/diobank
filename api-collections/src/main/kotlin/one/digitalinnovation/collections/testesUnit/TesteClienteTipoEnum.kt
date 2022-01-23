@@ -7,6 +7,6 @@ fun main(){
         println("${elemento.name} - $elemento")
     }
 
-    ContaTipo.values().forEach { println("${it.name} $it") }
+    ContaTipo.values().forEach { println("${it.name} ${it.description}") }
 
 }
