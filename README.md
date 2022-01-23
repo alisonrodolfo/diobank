@@ -1,3 +1,3 @@
-# Digital Innovation One
+# Digital 
 
 ### Trilha Kotlin
