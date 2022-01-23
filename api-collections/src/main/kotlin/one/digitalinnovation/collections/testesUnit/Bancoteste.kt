@@ -1,6 +1,6 @@
-package one.digitalinnovation.collections.testes
+package one.digitalinnovation.collections.testesUnit
 
-import one.digitalinnovation.collections.Banco
+import one.digitalinnovation.collections.Banco.Banco
 
 fun main(){
     val dioOneBank = Banco("DioBank",1)
