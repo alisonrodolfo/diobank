@@ -1,4 +1,4 @@
-package one.digitalinnovation.collections
+package one.digitalinnovation.collections.Cliente
 
 class Pessoa {
     var name: String = "Nome"
