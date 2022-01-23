@@ -1,20 +1,8 @@
 package one.digitalinnovation.collections.Cliente
 
-class Pessoa {
-    var name: String = "Nome"
-    var cpf: String = "123.123.123-11"
-    private set
+abstract class Pessoa (
+    open val name: String,
+    open val cpf: String
+    ) {
 
-    constructor()
-
-    fun pessoInfor() = "$name e $cpf"
-
-
-
-}
-
-fun main(){
-    val name = Pessoa()
-
-    println(name.pessoInfor())
 }
