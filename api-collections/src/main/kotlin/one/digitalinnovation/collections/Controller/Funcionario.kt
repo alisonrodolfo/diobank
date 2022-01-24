@@ -6,8 +6,13 @@ import java.math.BigDecimal
 abstract class Funcionario(
     override val name: String,
     override val cpf: String,
-    val salario: BigDecimal
+    val salario: Double
 ) : Pessoa(name, cpf) {
 
-    abstract fun calculoAuxilio()
+    protected abstract fun calculoAuxilio(): Double
+    override fun toString(): String {
+        return "Funcionario(name='$name', cpf='$cpf', salario=$salario) Auxilio: ${calculoAuxilio()}"
+    }
+
+
 }
